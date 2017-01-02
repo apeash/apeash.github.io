@@ -1,8 +1,8 @@
 body {
-	color: white;
+	color: black;
 	font-family: Helvetica;
-	background-size: 100% 100%;
-    background-repeat: no-repeat;
+    text-align: center;
+    background-color: lightblue;
 }
 
 #potrait {
@@ -10,7 +10,26 @@ body {
 	height: 175px;
 	padding: 0px;
     border: 10px solid white;
-
     border-radius: 50%
+}
 
+.courses {
+	display: table; 
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+
+.banner {
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+a {
+  cursor: pointer;
+  position: relative;
+}
+
+a:active {
+	top: 2px;
 }
